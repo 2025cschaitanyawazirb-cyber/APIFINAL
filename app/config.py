@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     MONGO_DB_NAME: str = "Corporate facility desk app"
 
     # Gives the app a name
-    APP_NAME: str = "IT Service Desk App API"
+    APP_NAME: str = "Corporate facility desk app"
 
     # Informs pydatic-settings to load values from .env file
     model_config = SettingsConfigDict(env_file=".env",env_file_encoding="utf-8")
