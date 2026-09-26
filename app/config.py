@@ -8,7 +8,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     # MongoDB Settings
     MONGO_URI: str = "mongodb://localhost:27017"
-    MONGO_DB_NAME: str = "Corporate facility desk app"
+    MONGO_DB_NAME: str = "Corporatefacilitydeskapp"
 
     # Gives the app a name
     APP_NAME: str = "Corporate facility desk app"
